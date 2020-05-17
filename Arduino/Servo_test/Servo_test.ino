@@ -12,9 +12,6 @@
 // create servo object to control a servo
 Servo servo;  
 
-
-int val;    // variable to read the value from the analog pin
-
 void setup() {
   // attaches the servo on pin 9 to the servo object
   servo.attach(PIN_SERVO);  
